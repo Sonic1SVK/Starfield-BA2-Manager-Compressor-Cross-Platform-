@@ -1,34 +1,5 @@
-
----
-
-### 4. Súbor `.gitignore`
-
-Aby si si na GitHub neposielal zbytočné build súbory, vytvor v koreňovom priečinku súbor `.gitignore` s týmto obsahom:
-
-```text
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# PyInstaller
-# It is recommended to NOT ignore the .spec file if you want to share the build config
+.venv/
 build/
 dist/
-
-# Environments
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Anaconda
-.conda/
